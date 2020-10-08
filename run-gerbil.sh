@@ -5,8 +5,8 @@ export gerbil_home=~/gerbil/
 gerbil_data=$gerbil_home/gerbil_data
 
 data_url="https://github.com/dice-group/gerbil/releases/download/v1.2.6/gerbil_data.zip"
-mapping_url="http://139.18.2.164/mroeder/gerbil/dbpedia_index.zip"
-index_url="http://139.18.2.164/mroeder/gerbil/dbpedia_check_index.zip"
+mapping_url="https://hobbitdata.informatik.uni-leipzig.de/gerbil/dbpedia_index.zip"
+index_url="https://hobbitdata.informatik.uni-leipzig.de/gerbil/dbpedia_check_index.zip"
 
 # Check for dependencies
 if [ ! -e $gerbil_data ]
