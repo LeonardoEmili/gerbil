@@ -126,4 +126,9 @@ public class SimpleLoggingDAO4Debugging extends AbstractExperimentDAO {
 		return null;
 	}
 
+	@Override
+	public List<String> getResultNames() {
+		throw new UnsupportedOperationException("Not implemented, yet");
+	}
+
 }
